@@ -1,11 +1,11 @@
-# vue-slick-carousel
+# slick-vuejs
 
 > 🚥 Vue Slick Carousel with True SSR Written for Faster [Luxstay](https://www.luxstay.com). This Is a Port of [react-slick](https://github.com/akiran/react-slick).
 
-[![npm version](https://img.shields.io/npm/v/vue-slick-carousel.svg)](https://www.npmjs.com/package/vue-slick-carousel)
-[![bit](https://img.shields.io/bit/collection/total-components/gsshop/vue-slick-carousel)](https://bit.dev/gsshop/vue-slick-carousel/vue-slick-carousel)
-[![license](https://img.shields.io/npm/l/vue-slick-carousel)](https://github.com/gs-shop/vue-slick-carousel/blob/master/LICENSE)
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/gs-shop/vue-slick-carousel/issues?&q=is%3Aissue+is%3Aopen)
+[![npm version](https://img.shields.io/npm/v/slick-vuejs.svg)](https://www.npmjs.com/package/slick-vuejs)
+[![bit](https://img.shields.io/bit/collection/total-components/gsshop/slick-vuejs)](https://bit.dev/gsshop/slick-vuejs/slick-vuejs)
+[![license](https://img.shields.io/npm/l/slick-vuejs)](https://github.com/gs-shop/slick-vuejs/blob/master/LICENSE)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/gs-shop/slick-vuejs/issues?&q=is%3Aissue+is%3Aopen)
 [![code with hearth by GSShop](https://img.shields.io/badge/gsshop-%3C%2F%3E%20-cadb2a.svg)](https://github.com/gs-shop)
 [![hearth for Luxstay](https://img.shields.io/badge/luxstay-%20%E2%99%A5%20-ff3333.svg)](https://www.luxstay.com)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
@@ -29,23 +29,23 @@
 | :-----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: |
 | ![05 variable width](https://user-images.githubusercontent.com/1215767/70865172-c42f9280-1f9d-11ea-91dc-566ef181759a.png) | ![06 vertical mode](https://user-images.githubusercontent.com/1215767/70865173-c42f9280-1f9d-11ea-93a2-d467cf409fe5.png) | ![07 lazy loading](https://user-images.githubusercontent.com/1215767/70865174-c4c82900-1f9d-11ea-96f7-0a11cc7e1d98.png) | ![08 synced sliders](https://user-images.githubusercontent.com/1215767/70865175-c4c82900-1f9d-11ea-8731-05235efa0d10.png) |
 
-vue-slick-carousel inherits the long-loved slick-carousel features, offers a variety of functions. It has been completely rewritten as a vue component. If you were trying to use the slick-carousel in the vue, it would be a perfect choice. You can use it in a vue component manner without any disparity. It also makes it easy to solve difficult problems such as custom arrows/dots.
+slick-vuejs inherits the long-loved slick-carousel features, offers a variety of functions. It has been completely rewritten as a vue component. If you were trying to use the slick-carousel in the vue, it would be a perfect choice. You can use it in a vue component manner without any disparity. It also makes it easy to solve difficult problems such as custom arrows/dots.
 
-Find out all available features on [setting props](https://github.com/gs-shop/vue-slick-carousel/blob/master/docs/API.md#props) and see how that works on [examples](https://gs-shop.github.io/vue-slick-carousel/#/example/).
+Find out all available features on [setting props](https://github.com/gs-shop/slick-vuejs/blob/master/docs/API.md#props) and see how that works on [examples](https://gs-shop.github.io/slick-vuejs/#/example/).
 
 <br/>
 
 ## True SSR
 
-|             [no-ssr-slick](https://codesandbox.io/s/github/kyuwoo-choi/nuxt-no-ssr-slick-example)             |       [vue-slick-carousel](https://codesandbox.io/s/github/kyuwoo-choi/nuxt-vue-slick-carousel-example)       |
+|             [no-ssr-slick](https://codesandbox.io/s/github/kyuwoo-choi/nuxt-no-ssr-slick-example)             |              [slick-vuejs](https://codesandbox.io/s/github/kyuwoo-choi/nuxt-slick-vuejs-example)              |
 | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
 | ![image](https://user-images.githubusercontent.com/1215767/71011941-a3984180-2131-11ea-8fb5-bbcdaf5740c7.png) | ![image](https://user-images.githubusercontent.com/1215767/71011993-b3b02100-2131-11ea-9295-4aca745f0706.png) |
 |                                           FCP: 1920ms & LCP: 3090ms                                           |                                           FCP: 620ms & LCP: 1850ms                                            |
 
-It is designed to support SSR from the start. vue-slick-carousel supports true SSR. No more `no-ssr` or `client-only` to make it work anyway. If you value website performance, you are in the right place.
+It is designed to support SSR from the start. slick-vuejs supports true SSR. No more `no-ssr` or `client-only` to make it work anyway. If you value website performance, you are in the right place.
 
 Here're nuxt examples for you to test yourself:
-[no-ssr-slick](https://codesandbox.io/s/github/kyuwoo-choi/nuxt-no-ssr-slick-example) vs [vue-slick-carousel](https://codesandbox.io/s/github/kyuwoo-choi/nuxt-vue-slick-carousel-example)
+[no-ssr-slick](https://codesandbox.io/s/github/kyuwoo-choi/nuxt-no-ssr-slick-example) vs [slick-vuejs](https://codesandbox.io/s/github/kyuwoo-choi/nuxt-slick-vuejs-example)
 
 [Find out how fast it is compared to the Top 5 carousels.](https://dev.to/gsshop/vue-js-carousels-ssr-support-and-performance-24nh) And leave what you think.
 
@@ -57,25 +57,25 @@ Here're nuxt examples for you to test yourself:
 
 ```bash
 # npm
-npm i vue-slick-carousel
+npm i slick-vuejs
 # yarn
-yarn add vue-slick-carousel
+yarn add slick-vuejs
 # bit
-bit import gsshop.vue-slick-carousel/vue-slick-carousel
+bit import gsshop.slick-vuejs/slick-vuejs
 ```
 
 ### cdn
 
 ```bash
 # latest
-https://unpkg.com/vue-slick-carousel
+https://unpkg.com/slick-vuejs
 ```
 
 <br/>
 
 ## 🚀 Quick Start
 
-See [API](https://github.com/gs-shop/vue-slick-carousel/blob/master/docs/API.md) & [Examples](https://gs-shop.github.io/vue-slick-carousel/#/example/) to learn advanced usage.
+See [API](https://github.com/gs-shop/slick-vuejs/blob/master/docs/API.md) & [Examples](https://gs-shop.github.io/slick-vuejs/#/example/) to learn advanced usage.
 
 ```html
 <template>
@@ -90,10 +90,10 @@ See [API](https://github.com/gs-shop/vue-slick-carousel/blob/master/docs/API.md)
 </template>
 
 <script>
-  import VueSlickCarousel from 'vue-slick-carousel'
-  import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+  import VueSlickCarousel from 'slick-vuejs'
+  import 'slick-vuejs/dist/slick-vuejs.css'
   // optional style for arrows & dots
-  import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+  import 'slick-vuejs/dist/slick-vuejs-theme.css'
 
   export default {
     name: 'MyComponent',
@@ -106,17 +106,17 @@ See [API](https://github.com/gs-shop/vue-slick-carousel/blob/master/docs/API.md)
 
 ## 📚 Docs
 
-- [examples](https://gs-shop.github.io/vue-slick-carousel/#/example/)
-- [settings props](https://github.com/gs-shop/vue-slick-carousel/blob/master/docs/API.md#props)
-- [methods](https://github.com/gs-shop/vue-slick-carousel/blob/master/docs/API.md#methods)
-- [events](https://github.com/gs-shop/vue-slick-carousel/blob/master/docs/API.md#events)
-- [slots](https://github.com/gs-shop/vue-slick-carousel/blob/master/docs/API.md#slots)
-- [contributing](https://github.com/gs-shop/vue-slick-carousel/blob/master/docs/CONTRIBUTING.md)
-- [commit message convention](https://github.com/gs-shop/vue-slick-carousel/blob/master/docs/COMMIT_MESSAGE_CONVENTION.md)
-- [code of conduct](https://github.com/gs-shop/vue-slick-carousel/blob/master/docs/CODE_OF_CONDUCT.md)
+- [examples](https://gs-shop.github.io/slick-vuejs/#/example/)
+- [settings props](https://github.com/gs-shop/slick-vuejs/blob/master/docs/API.md#props)
+- [methods](https://github.com/gs-shop/slick-vuejs/blob/master/docs/API.md#methods)
+- [events](https://github.com/gs-shop/slick-vuejs/blob/master/docs/API.md#events)
+- [slots](https://github.com/gs-shop/slick-vuejs/blob/master/docs/API.md#slots)
+- [contributing](https://github.com/gs-shop/slick-vuejs/blob/master/docs/CONTRIBUTING.md)
+- [commit message convention](https://github.com/gs-shop/slick-vuejs/blob/master/docs/COMMIT_MESSAGE_CONVENTION.md)
+- [code of conduct](https://github.com/gs-shop/slick-vuejs/blob/master/docs/CODE_OF_CONDUCT.md)
 
 <br/>
 
 ## 🔖 License
 
-This software is licensed under the [MIT](https://github.com/gs-shop/vue-slick-carousel/blob/master/LICENSE).
+This software is licensed under the [MIT](https://github.com/gs-shop/slick-vuejs/blob/master/LICENSE).

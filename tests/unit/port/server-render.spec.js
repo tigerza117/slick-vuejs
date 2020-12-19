@@ -17,9 +17,9 @@ const vueServerRender = async (itemHtmls = [], settings = {}) => {
   const className = settings.className || ''
   const renderedString = await vueRenderer.renderToString(
     new Vue({
-      template: `<vue-slick-carousel v-bind="settings" class="${className}">${itemHtmls.join(
+      template: `<slick-vuejs v-bind="settings" class="${className}">${itemHtmls.join(
         '',
-      )}</vue-slick-carousel>`,
+      )}</slick-vuejs>`,
       components: { VueSlickCarousel },
       props: {
         settings: {

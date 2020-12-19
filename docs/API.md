@@ -38,7 +38,7 @@
 
 ### All Props
 
-Check out [demo examples](https://gs-shop.github.io/vue-slick-carousel/#/example) for settings usage.
+Check out [demo examples](https://gs-shop.github.io/slick-vuejs/#/example) for settings usage.
 
 | Prop name        | Description                                                                                                                                                                      | Type    | Values                | Default      |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | --------------------- | ------------ |
@@ -165,9 +165,7 @@ Check out [demo examples](https://gs-shop.github.io/vue-slick-carousel/#/example
     </template>
     /*...*/
     <template #customPaging="page">
-      <div class="custom-dot">
-        {{ page }}
-      </div>
+      <div class="custom-dot">{{ page }}</div>
     </template>
   </VueSlickCarousel>
 </template>

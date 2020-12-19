@@ -25,7 +25,7 @@ module.exports = {
       .loader('markdown-loader')
       .options({
         renderer: new marked.Renderer(),
-        highlight: function(code, lang) {
+        highlight: function (code, lang) {
           return Prism.highlight(code, Prism.languages[lang], lang)
         },
         gfm: true,
@@ -40,7 +40,7 @@ module.exports = {
       new CopyWebpackPlugin([
         {
           from: path.join(__dirname, 'src/slick-theme.css'),
-          to: path.join(__dirname, 'dist/vue-slick-carousel-theme.css'),
+          to: path.join(__dirname, 'dist/slick-vuejs-theme.css'),
         },
       ]),
     ],

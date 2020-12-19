@@ -1,9 +1,7 @@
 <template>
   <v-app id="inspire">
     <h1 class="head-title py-4 pt-10" relative>
-      <router-link to="/">
-        vue-slick-carousel
-      </router-link>
+      <router-link to="/">slick-vuejs</router-link>
       <v-btn
         class="github my-7 mx-1"
         small
@@ -14,7 +12,7 @@
         right
         color="secondary"
       >
-        <a href="https://github.com/gs-shop/vue-slick-carousel">
+        <a href="https://github.com/gs-shop/slick-vuejs">
           <v-icon dark>fab fa-github</v-icon>
         </a>
       </v-btn>

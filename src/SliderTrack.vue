@@ -207,9 +207,7 @@ export default {
   render() {
     const slides = this.renderSlides(this.$props, this.$slots.default)
     return (
-      <div
-        class={{ 'slick-track': true}
-        style={this.trackStyle}>
+      <div class={{ 'slick-track': true }} style={this.trackStyle}>
         {slides}
       </div>
     )
